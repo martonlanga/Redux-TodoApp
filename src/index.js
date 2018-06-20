@@ -1,4 +1,3 @@
-/*
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -7,13 +6,9 @@ import configureStore from './store';
 
 import App from './App';
 
-
 ReactDOM.render(
   <Provider store={configureStore()}>
     <App>Hello</App>
   </Provider>,
   document.getElementById('root')
 );
-*/
-
-import './todos/todoApp';
